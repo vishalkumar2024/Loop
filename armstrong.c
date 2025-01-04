@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
+    // Taking input the number
     int num;
     int lastdigit,originalnum;
     int sum=0;
@@ -19,6 +20,7 @@ int main(){
         sum+=pow(lastdigit,digit);
         originalnum/=10;
     }
+    // Checkin the number is armstrong or not
     if(sum==num){
         printf("The number is Armstrong");
     }
