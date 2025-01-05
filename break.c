@@ -1,4 +1,3 @@
-//do not working//
 #include<stdio.h>
 int main(){
     int i;
