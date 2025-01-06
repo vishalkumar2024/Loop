@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main (){
+    // Taking input the number
     int n;
     printf("enter the number :");
     scanf("%d",&n);
+    
+    // Finding the fibonacci
     int a=1;
     int b=1;
     int sum=1;
