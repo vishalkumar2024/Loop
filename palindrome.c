@@ -5,7 +5,7 @@ int main(){
     int originalnum;
     int reverse = 0;
     int lastdigit = 0;
-    // Taking input the n
+    // Taking input the  n
     printf("Enter the number:");
     scanf("%d", &n);
     originalnum = n;
