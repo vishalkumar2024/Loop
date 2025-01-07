@@ -5,6 +5,7 @@ int main(){
     int originalnum;
     int reverse = 0;
     int lastdigit = 0;
+    // Taking input the n
     printf("Enter the number:");
     scanf("%d", &n);
     originalnum = n;
@@ -13,7 +14,7 @@ int main(){
         reverse = reverse * 10 + lastdigit;
         n /= 10;
     }
-    // originalnum=n;
+    // Checking the no. is palindrome or not
     if (originalnum == reverse){
         printf("%d is a palindrome number", originalnum);
     }
