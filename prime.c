@@ -4,7 +4,7 @@ int main (){
     int n;
     printf ("entre the number :");
     scanf("%d",&n);
-    // Checking for the prime
+    // Checking for the prime no.
     int a=0;
     for(int i=2;i<=n-1;i++){
         if(n%i==0){
