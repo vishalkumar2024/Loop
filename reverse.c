@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main (){
     int n;
+    // Taking input the number
     printf("enter the number :");
     scanf("%d",&n);
     int reverse=0;
