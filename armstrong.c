@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    // Taking input the number
+    // Taking input the number from user
     int num;
     int lastdigit,originalnum;
     int sum=0;
