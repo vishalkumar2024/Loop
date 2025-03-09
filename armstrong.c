@@ -20,7 +20,7 @@ int main(){
         sum+=pow(lastdigit,digit);
         originalnum/=10;
     }
-    // Checkin the number is armstrong or not
+    // Checkin the number if armstrong or not
     if(sum==num){
         printf("The number is Armstrong");
     }
