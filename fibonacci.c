@@ -5,7 +5,7 @@ int main (){
     printf("Enter the number :");
     scanf("%d",&n);
     
-    // Finding the fibonacci
+    // calculating the fibonacci
     int a=1;
     int b=1;
     int sum=1;
@@ -14,6 +14,6 @@ int main (){
         a=b;
         b=sum;
     }
-    printf("the %dth fibonacci term is %d",n,sum);
+    printf("The %dth fibonacci term is %d",n,sum);
     return 0;
 }
