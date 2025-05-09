@@ -22,7 +22,7 @@ int main(){
     }
     // Checkin the number if armstrong or not
     if(sum==num){
-        printf("The number is Armstrong");
+        printf("The number is an Armstrong");
     }
     else{
         printf("The number is not an Armstrong");
