@@ -6,7 +6,7 @@ int main (){
     scanf("%d",&n);
     int a=1;
     // increasing a by 2 times
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         printf("%d\n",a);
         a=a*2;
     }
