@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    // Taking input the number
+    // Taking input the number 
     int num;
-    printf("enter the number:");
+    printf("Enter the number:");
     scanf("%d",&num);
     // Printing the table
     for(int i=1;i<=10;i++){
