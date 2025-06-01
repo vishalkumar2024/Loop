@@ -2,7 +2,7 @@
 int main (){
     // Taking input the number n
     int n;
-    printf("Enter the number :");
+    printf("Enter the number: ");
     scanf("%d",&n);
     
     // calculating the fibonacci
