@@ -2,7 +2,7 @@
 int main (){
     int num;
     // Taking input the number
-    printf("enter the number :");
+    printf("Enter the number :");
     scanf("%d",&num);
     int reverse=0;
     // Reverse the number
