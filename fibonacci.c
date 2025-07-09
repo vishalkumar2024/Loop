@@ -5,7 +5,7 @@ int main (){
     printf("Enter the number: ");
     scanf("%d",&n);
     
-    // calculating the fibonacci
+    // calculating the fibonacci number 
     int a=1;
     int b=1;
     int sum=1;
